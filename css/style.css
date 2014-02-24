@@ -3,12 +3,13 @@
 
 body
 {
-	background:#ddd;
+	background:#fff;
 }
 
 .container
 {
 	background:url(../img/containerBG.png) no-repeat;
+	
 }
 
 .nav 
@@ -130,6 +131,12 @@ li.hours
 	background:#999;
 }
 
+img.menuImg
+{
+	float:right;
+	width:30%;
+}
+
 img.halal
 {
 	position:absolute;
@@ -142,7 +149,7 @@ img.halal
 	position:absolute;
 	top:125px;
 	width:22%;
-	left:150px;
+	left:160px;
 }
 
 #twtr
@@ -150,7 +157,7 @@ img.halal
 	position:absolute;
 	top:195px;
 	width:23%;
-	left:150px;
+	left:160px;
 }
 
 
