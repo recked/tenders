@@ -69,6 +69,28 @@ h3,p
 	padding:20px;
 }
 
+fieldset
+{
+	border: solid 1px #ff6;
+	padding:20px;
+	width: 600px;	
+	background-color:#FF6;
+}
+
+label.control-label
+{
+	text-align:left;
+	width:150px;
+	float:left;
+	font-weight:bold;
+	background:#ffe046;
+}
+
+input
+{
+	width:200px;
+}
+
 .carousel-caption
 {
 	position:absolute;
