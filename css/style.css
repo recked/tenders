@@ -3,17 +3,141 @@
 
 body
 {
+	background:#ccc;
 }
 
 .container
 {
+	background:url(../img/containerBG.png) no-repeat;
 }
 
-.navbar-brand
+.nav 
 {
-	background:url(img/logo.png);
+	background : #cf4503;
+    background : -webkit-gradient(linear, left top, left bottom, from(rgb(168,168,168)), to(rgb(69,69,69)));
+    background : -moz-linear-gradient(top, rgb(168,168,168), rgb(69,69,69));
+    border-top: 2px solid #939393;
+    position: relative;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+ 
+ul.nav {
+    border-left: 1px solid rgba(0,0,0,0.3);
+    border-right: 1px solid rgba(255,255,255,0.3);
+    float:left;
+}
+ 
+ul.nav li {
+    list-style: none;
+    float:left;
+    text-align: center;
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(255,213,1,1)), to(rgba(181,59,0, 1)) );
+    background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(255,213,1,1) 0%, rgba(181,59,0, 1) 100%);
+    }
+ 
+ul li a {
+    display: block;
+    padding: 0 0px;
+    border-left: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+    line-height: 79px;
+    background : -webkit-gradient(linear, left top, left bottom, from(rgb(168,168,168)), to(rgb(131,131,131)));
+    background : -moz-linear-gradient(top, rgb(168,168,168), rgb(131,131,131));
+    -webkit-transition-property: background;
+    -webkit-transition-duration: 700ms;
+    -moz-transition-property: background;
+    -moz-transition-duration: 700ms;
+    }
+ 
+ul li a:hover {
+    background: transparent none no-repeat;
+}
+ 
+ul li.active a{
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(255,213,1,1)), to(rgba(181,59,0, 1)) );
+    background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(255,213,1,1) 0%, rgba(181,59,0, 1) 100%);
+}
+
+.carousel-caption
+{
+	position:absolute;
+	float:right;
+}
+
+.specials
+{
+	margin-top:20px;
+}
+
+#tue
+{
+	float:left;
+	width:60%;
+	margin-left:200px;
+	margin-bottom:20px;
+}
+
+#thur
+{
+	float:right;
+	width:60%;
+	margin-right:200px;
+	margin-bottom:20px;
+}
+
+.address
+{
+	position:absolute;
+	top:35px;
+	padding:20px;
+	width:100%;
+	background:#999;
+}
+
+ul.hours
+{
+	list-style:none;
+	position:absolute;
+	top:35px;
+	padding:20px;
+	padding-bottom:40px;
+	width:100%;
+	background:#999;
 }
 
 
+li.hours
+{
+	background:#eee;
+}
+
+.navbar-form
+{
+	position:absolute;
+	top:27px;
+	padding-top:20px;
+	padding-bottom:12px;
+	background:#999;
+}
+
+img.halal
+{
+	position:absolute;
+	top:120px;
+	width:50%;
+}
+
+.footer
+{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:100px;
+}
 
 
