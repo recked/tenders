@@ -1,0 +1,93 @@
+/*Styles for Tenders */
+/* Variables
+-------------------------------------------------- */
+/* Sticky footer styles
+-------------------------------------------------- */
+/* line 13, ../sass/styles.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 17, ../sass/styles.scss */
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 200px;
+}
+
+/* line 21, ../sass/styles.scss */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 150px;
+}
+
+/* Nav
+-------------------------------------------------- */
+/* line 32, ../sass/styles.scss */
+.navbar-brand img {
+  width: 33%;
+}
+
+/* line 36, ../sass/styles.scss */
+.nav {
+  margin-top: 30px;
+}
+/* line 38, ../sass/styles.scss */
+.nav li {
+  margin: 0 10px;
+}
+
+/* line 42, ../sass/styles.scss */
+.nav > li > a:hover {
+  color: #555;
+  background: none;
+  border-bottom: #b90005 2px solid;
+}
+
+/* line 49, ../sass/styles.scss */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background: none;
+  border-bottom: #b90005 2px solid;
+}
+
+/* Home Page
+-------------------------------------------------- */
+/* line 57, ../sass/styles.scss */
+#myCarousel {
+  margin-top: -20px;
+}
+
+/* line 61, ../sass/styles.scss */
+.specials img {
+  max-width: 30%;
+  float: left;
+  margin-right: 15px;
+}
+
+/* Menu Page
+-------------------------------------------------- */
+/* line 70, ../sass/styles.scss */
+.menuImg {
+  max-width: 30%;
+  float: right;
+}
+
+/* Footer
+-------------------------------------------------- */
+/* line 77, ../sass/styles.scss */
+#footer {
+  padding-top: 30px;
+  background-color: whitesmoke;
+  border-top: 1px solid #e7e7e7;
+}
+
+/* line 83, ../sass/styles.scss */
+.footer img {
+  width: 20%;
+}

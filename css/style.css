@@ -12,12 +12,6 @@ body
 	
 }
 
-.navbar
-{
-	/*background:#b80004;*/
-	background:url(../img/headerStrip.png);
-}
-
 .nav 
 {
 	background : #cf4503;
@@ -42,7 +36,7 @@ ul.nav li {
     list-style: none;
     float:left;
     text-align: center;
-    background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(255,213,1,1)), to(rgba(181,59,0, 1)) ); /*254,220,*/
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(255,213,1,1)), to(rgba(181,59,0, 1)) );
     background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(255,213,1,1) 0%, rgba(181,59,0, 1) 100%);
     }
  
@@ -53,12 +47,12 @@ ul li a {
     border-right: 1px solid rgba(0,0,0,0.1);
     text-align: center;
     line-height: 79px;
-    background : -webkit-gradient(linear, left top, left bottom, from(rgb(230,230,230)), to(rgb(215,215,215)));
-    background : -moz-linear-gradient(top, rgb(230,230,230), rgb(215,215,215));
+    background : -webkit-gradient(linear, left top, left bottom, from(rgb(168,168,168)), to(rgb(131,131,131)));
+    background : -moz-linear-gradient(top, rgb(168,168,168), rgb(131,131,131));
     -webkit-transition-property: background;
-    -webkit-transition-duration: 100ms;
+    -webkit-transition-duration: 700ms;
     -moz-transition-property: background;
-    -moz-transition-duration: 100ms;
+    -moz-transition-duration: 700ms;
     }
  
 ul li a:hover {

@@ -8,12 +8,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
-    <!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
-    <!--script src="js/less-1.3.3.min.js"></script-->
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -22,390 +19,419 @@
 
     <link rel="shortcut icon" href="#">
 
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
-
-    <!--<style type="text/css">
-        .control-label {
-        padding-right:20px;
-        color:#000;
-        }
-        .radio {
-        padding-right: 20px;
-        color:#000;
-        
-        }
-    </style>-->
-
-
 
 </head>
 
 <body>
 
-    <div class="container">
 
-        <div class="row clearfix">
-            <!-- Nav Bar -->
-            <div class="col-xs-12 col-sm-12 col-md-12 column">
-                <nav class="navbar navbar-default navbar-static-top" role="navigation">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-
-                        <!-- Logo -->
-                        <a class="navbar-brand" href="#">
-                        <!--<img src="http://lorempixel.com/250/60/sports/" alt="text here">-->
-                        <img src="img/logo.png" alt="tenders logo" width="30%" height="30%">
-                        </a>
-                        <!-- END Logo -->
-
-                    </div>
-
-                    <div class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav navbar-right">
-
-                            <li>
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="about.html">About</a>
-                            </li>
-                            <li>
-                                <a href="menu.html">Menu</a>
-                            </li>
-                            <li>
-                                <a href="hwc.html">Hot Wing Challenge</a>
-                            </li>
-                            <li>
-                                <a href="contact.html">Contact</a>
-                            </li>
-                             <li class="active">
-                                <a href="apply.html">Apply</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </nav>
-            </div>
-            <!-- END Nav Bar -->
-        </div>
-
+    <!-- Nav Bar -->
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-                    <form class="" action="" method="post">
-                        <fieldset>
+                <!-- Logo -->
+                <a class="navbar-brand" href="/">
+                    <img src="img/logo.png" alt="tenders logo" width="30%" height="30%">
+                </a>
+                <!-- END Logo -->
 
-                            <!-- Text input-->
-                            <div class="control-group">
-                             <h3 style="color:#000;">Personal Information</h3>
-                                <label class="control-label" for="textinput">First Name</label>
+            </div>
 
-                                <input id="firstname" name="firstname" type="text" placeholder="" class="input-medium" required="">
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
 
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="menu.html">Menu</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="active">
+                        <a href="apply.html">Apply</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /collapse -->
+        </div>
+    </div>
+    <!-- END Nav Bar -->
 
-                            </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-2">
 
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Last Name</label>
+                <form class="" action="" method="post">
+                    <fieldset>
 
-                                <input id="lastname" name="lastname" type="text" placeholder="" class="input-xlarge" required="">
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <h3 style="color:#000;">Personal Information</h3>
+                            <label class="control-label" for="textinput">First Name</label>
 
-
-                            </div>
-
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Email</label>
-
-                                <input id="email" name="email" type="text" placeholder="" class="input-xlarge" required="">
-
-                            </div>
-
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Phone</label>
-
-                                <input id="phone" name="phone" type="text" placeholder="" class="input-xlarge" required="">
-
-
-                            </div>
-
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Street Address</label>
-
-                                <input id="address" name="address" type="text" placeholder="" class="input-xlarge">
-
-                            </div>
-
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Address Line 2</label>
-
-                                <input id="address2" name="address2" type="text" placeholder="" class="input-xlarge">
-
-
-                            </div>
-
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">City</label>
-
-                                <input id="city" name="city" type="text" placeholder="" class="input-large">
+                            <input id="firstname" name="firstname" type="text" placeholder="" class="input-medium" required="">
 
 
-                            </div>
+                        </div>
 
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Zip</label>
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Last Name</label>
 
-                                <input id="zip" name="zip" type="text" placeholder="" class="input-medium">
-                            </div>
-
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Date of Birth</label>
-
-                                <input id="dob" name="dob" type="text" placeholder="12/12/12" class="input-medium">
-                            </div>
-                            <!-- Multiple Radios -->
-                            <div class="control-group">
-                                <label class="control-label" for="radios" style="padding-right:30px;">Are you a U.S. citizen?</label>
-
-                                <label class="radio" for="radios-0">
-                                    <input type="radio" name="citizen" id="radios-0" value="Yes">Yes
-                                </label>
-                                <label class="radio" for="radios-1">
-                                    <input type="radio" name="citizen" id="radios-1" value="No">No
-                                </label>
-
-                            </div>
-
-                            <!-- Multiple Radios -->
-                            <div class="control-group">
-                                <label class="control-label" for="radios" style="padding-right:30px;">Have you ever been convicted of a felony?</label>
-
-                                <label class="radio" for="radios-2">
-                                    <input type="radio" name="felony" id="radios-2" value="Yes">Yes
-                                </label>
-                                <label class="radio" for="radios-3">
-                                    <input type="radio" name="felony" id="radios-3" value="No">No
-                                </label><br />
-
-                            </div>
-
-                            <!-- Select Basic -->
-                            <div class="control-group">
-                                <label class="control-label" for="selectbasic">Highest level of education?</label>
-
-                                <select id="schoolselect" name="schoolselect" class="input-medium">
-                                    <option></option>
-                                    <option>High School</option>
-                                    <option>College Bachelors</option>
-                                    <option>College Masters</option>
-                                </select>
-
-                            </div>
-
-                            <h3 style="color:#000;">References</h3>
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Name</label>
-
-                                <input id="name1" name="name1" type="text" placeholder="" class="input-xlarge" required="">
-                            </div>
-
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Phone Number</label>
-
-                                <input id="phone1" name="phone1" type="text" placeholder="" class="input-large">
-
-                            </div>
+                            <input id="lastname" name="lastname" type="text" placeholder="" class="input-xlarge" required="">
 
 
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Relationship to you?</label>
+                        </div>
 
-                                <input id="relationship1" name="relationship1" type="text" placeholder="" class="input-xlarge" required="">
-                            </div>
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Email</label>
 
-                            <br />
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Name</label>
+                            <input id="email" name="email" type="text" placeholder="" class="input-xlarge" required="">
 
-                                <input id="name2" name="name2" type="text" placeholder="" class="input-xlarge" required="">
+                        </div>
 
-                            </div>
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Phone</label>
 
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Phone Number</label>
-                                <input id="phone2" name="phone2" type="text" placeholder="" class="input-xlarge" required="">
+                            <input id="phone" name="phone" type="text" placeholder="" class="input-xlarge" required="">
 
-                            </div>
 
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Relationship to you?</label>
+                        </div>
 
-                                <input id="relationship2" name="relationship2" type="text" placeholder="" class="input-xlarge" required="">
-                            </div>
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Street Address</label>
 
+                            <input id="address" name="address" type="text" placeholder="" class="input-xlarge">
+
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Address Line 2</label>
+
+                            <input id="address2" name="address2" type="text" placeholder="" class="input-xlarge">
+
+
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">City</label>
+
+                            <input id="city" name="city" type="text" placeholder="" class="input-large">
+
+
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Zip</label>
+
+                            <input id="zip" name="zip" type="text" placeholder="" class="input-medium">
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Date of Birth</label>
+
+                            <input id="dob" name="dob" type="text" placeholder="12/12/12" class="input-medium">
+                        </div>
+                        <!-- Multiple Radios -->
+                        <div class="control-group">
+                            <label class="control-label" for="radios" style="padding-right:30px;">Are you a U.S. citizen?</label>
+
+                            <label class="radio" for="radios-0">
+                                <input type="radio" name="citizen" id="radios-0" value="Yes">Yes
+                            </label>
+                            <label class="radio" for="radios-1">
+                                <input type="radio" name="citizen" id="radios-1" value="No">No
+                            </label>
+
+                        </div>
+
+                        <!-- Multiple Radios -->
+                        <div class="control-group">
+                            <label class="control-label" for="radios" style="padding-right:30px;">Have you ever been convicted of a felony?</label>
+
+                            <label class="radio" for="radios-2">
+                                <input type="radio" name="felony" id="radios-2" value="Yes">Yes
+                            </label>
+                            <label class="radio" for="radios-3">
+                                <input type="radio" name="felony" id="radios-3" value="No">No
+                            </label>
                             <br />
 
+                        </div>
+
+                        <!-- Select Basic -->
+                        <div class="control-group">
+                            <label class="control-label" for="selectbasic">Highest level of education?</label>
+
+                            <select id="schoolselect" name="schoolselect" class="input-medium">
+                                <option></option>
+                                <option>High School</option>
+                                <option>College Bachelors</option>
+                                <option>College Masters</option>
+                            </select>
+
+                        </div>
+
+                        <h3 style="color:#000;">References</h3>
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Name</label>
+
+                            <input id="name1" name="name1" type="text" placeholder="" class="input-xlarge" required="">
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Phone Number</label>
+
+                            <input id="phone1" name="phone1" type="text" placeholder="" class="input-large">
+
+                        </div>
+
+
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Relationship to you?</label>
+
+                            <input id="relationship1" name="relationship1" type="text" placeholder="" class="input-xlarge" required="">
+                        </div>
+
+                        <br />
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Name</label>
+
+                            <input id="name2" name="name2" type="text" placeholder="" class="input-xlarge" required="">
+
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Phone Number</label>
+                            <input id="phone2" name="phone2" type="text" placeholder="" class="input-xlarge" required="">
+
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Relationship to you?</label>
+
+                            <input id="relationship2" name="relationship2" type="text" placeholder="" class="input-xlarge" required="">
+                        </div>
+
+                        <br />
 
 
 
 
 
-                            <h3 style="color:#000;">Previous Employment</h3>
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Company</label>
 
-                                <input id="company1" name="company1" type="text" placeholder="" class="input-xlarge" required="">
+                        <h3 style="color:#000;">Previous Employment</h3>
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Company</label>
 
-                            </div>
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Supervisor Name</label>
+                            <input id="company1" name="company1" type="text" placeholder="" class="input-xlarge" required="">
 
-                                <input id="name3" name="name3" type="text" placeholder="" class="input-xlarge" required="">
+                        </div>
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Supervisor Name</label>
 
-                            </div>
+                            <input id="name3" name="name3" type="text" placeholder="" class="input-xlarge" required="">
 
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Phone Number</label>
-                                <input id="phone3" name="phone3" type="text" placeholder="" class="input-large" required="">
+                        </div>
 
-                            </div>
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Phone Number</label>
+                            <input id="phone3" name="phone3" type="text" placeholder="" class="input-large" required="">
 
-                            <!-- Multiple Radios -->
-                            <div class="control-group">
-                                <label class="control-label" for="radios" style="padding-right:30px;">May we contact your previous supervisor for a reference?</label>
+                        </div>
 
-                                <label class="radio" for="radios-4">
-                                    <input type="radio" name="contact" id="radios-4" value="Yes">Yes
-                                </label>
-                                <label class="radio" for="radios-5">
-                                    <input type="radio" name="contact" id="radios-5" value="No">No
-                                </label><br /><br />
+                        <!-- Multiple Radios -->
+                        <div class="control-group">
+                            <label class="control-label" for="radios" style="padding-right:30px;">May we contact your previous supervisor for a reference?</label>
 
-                            </div>
+                            <label class="radio" for="radios-4">
+                                <input type="radio" name="contact" id="radios-4" value="Yes">Yes
+                            </label>
+                            <label class="radio" for="radios-5">
+                                <input type="radio" name="contact" id="radios-5" value="No">No
+                            </label>
+                            <br />
+                            <br />
 
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Street Address</label>
+                        </div>
 
-                                <input id="address3" name="address3" type="text" placeholder="" class="input-xlarge">
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Street Address</label>
 
-                            </div>
+                            <input id="address3" name="address3" type="text" placeholder="" class="input-xlarge">
 
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Address Line 2</label>
+                        </div>
 
-                                <input id="address4" name="address4" type="text" placeholder="" class="input-xlarge">
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Address Line 2</label>
 
-
-                            </div>
-
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">City</label>
-
-                                <input id="city1" name="city1" type="text" placeholder="" class="input-large">
+                            <input id="address4" name="address4" type="text" placeholder="" class="input-xlarge">
 
 
-                            </div>
+                        </div>
 
-                            <!-- Text input-->
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Zip</label>
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">City</label>
 
-                                <input id="zip1" name="zip1" type="text" placeholder="" class="input-medium">
-                            </div>
-
-
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Starting Date</label>
-
-                                <input id="start" name="start" type="text" placeholder="12/12/12" class="input-medium">
-                            </div>
-
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Ending Date</label>
-
-                                <input id="end" name="end" type="text" placeholder="12/12/12" class="input-medium">
-                            </div>
-
-                            <!-- Textarea -->
-                            <div class="control-group">
-                                <label class="control-label" for="textarea">What were your job duties?</label>
-                                <textarea id="duties" name="duties"></textarea>
-                            </div>
-
-                            <!-- Textarea -->
-                            <div class="control-group">
-                                <label class="control-label" for="textarea">Reason for leaving this company?</label>
-                                <textarea id="leaving" name="leaving"></textarea>
-                            </div>
+                            <input id="city1" name="city1" type="text" placeholder="" class="input-large">
 
 
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Starting Pay Per Hour</label>
+                        </div>
 
-                                <input id="startpay" name="startpay" type="text" placeholder="$00.00" class="input-medium">
-                            </div>
+                        <!-- Text input-->
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Zip</label>
 
-                            <div class="control-group">
-                                <label class="control-label" for="textinput">Ending Pay Per Hour</label>
-                                <input id="endpay" name="endpay" type="text" placeholder="$00.00" class="input-medium">
-                            </div>
+                            <input id="zip1" name="zip1" type="text" placeholder="" class="input-medium">
+                        </div>
 
 
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Starting Date</label>
+
+                            <input id="start" name="start" type="text" placeholder="12/12/12" class="input-medium">
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Ending Date</label>
+
+                            <input id="end" name="end" type="text" placeholder="12/12/12" class="input-medium">
+                        </div>
+
+                        <!-- Textarea -->
+                        <div class="control-group">
+                            <label class="control-label" for="textarea">What were your job duties?</label>
+                            <textarea id="duties" name="duties"></textarea>
+                        </div>
+
+                        <!-- Textarea -->
+                        <div class="control-group">
+                            <label class="control-label" for="textarea">Reason for leaving this company?</label>
+                            <textarea id="leaving" name="leaving"></textarea>
+                        </div>
 
 
-                            <h3 style="color:#000;">Additional Information</h3>
-                            <!-- Textarea -->
-                            <div class="control-group">
-                                <label class="control-label" for="textarea">Tell us about yourself</label>
-                                <textarea id="about" name="about"></textarea>
-                            </div>
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Starting Pay Per Hour</label>
 
-                            <!-- Textarea -->
-                            <div class="control-group">
-                                <label class="control-label" for="textarea">Why do you want to work with us?</label>
-                                <textarea id="why" name="why"></textarea>
-                            </div>
+                            <input id="startpay" name="startpay" type="text" placeholder="$00.00" class="input-medium">
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="textinput">Ending Pay Per Hour</label>
+                            <input id="endpay" name="endpay" type="text" placeholder="$00.00" class="input-medium">
+                        </div>
 
 
-                            <!-- Button -->
-                            <div class="control-group">
-                                <label class="control-label" for="singlebutton"></label>
-                                <button id="singlebutton" name="singlebutton" class="btn btn-default">Submit</button>
-                            </div>
 
-                        </fieldset>
-                    </form>
 
-                </div>
+                        <h3 style="color:#000;">Additional Information</h3>
+                        <!-- Textarea -->
+                        <div class="control-group">
+                            <label class="control-label" for="textarea">Tell us about yourself</label>
+                            <textarea id="about" name="about"></textarea>
+                        </div>
+
+                        <!-- Textarea -->
+                        <div class="control-group">
+                            <label class="control-label" for="textarea">Why do you want to work with us?</label>
+                            <textarea id="why" name="why"></textarea>
+                        </div>
+
+
+                        <!-- Button -->
+                        <div class="control-group">
+                            <label class="control-label" for="singlebutton"></label>
+                            <button id="singlebutton" name="singlebutton" class="btn btn-default">Submit</button>
+                        </div>
+
+                    </fieldset>
+                </form>
+
             </div>
         </div>
     </div>
+    <div id="footer">
+        <!-- Footer -->
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 column">
+                    <!-- Address -->
+                    <address class="address">
+                        <strong>Tenders</strong>
+                        <br>12226 Corporate Blvd. Suite 166
+                        <br>Orlando, FL 32817
+                        <br>
+                        <abbr title="Phone">P:</abbr>(407) 281-0960
+                    </address>
+                    <!-- END Address -->
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 column">
+                    <!-- Hours -->
+                    <ul class="hours">
+                        <strong>Hours</strong>
+                        <li>Monday-Saturday: 11am - 10pm</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                    <!-- END Hours -->
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 column">
+                    <div class="footer">
+                        <img class="halal" src="img/halal.png" alt="Halal Logo">
+                        <a href="https://www.facebook.com/pages/Tenders-UCF/128887653813705">
+                            <img id="fbLogo" src="img/fbLogo.png" alt="fb logo">
+                        </a>
+                        <a href="https://twitter.com/TendersUCF">
+                            <img id="twtr" src="img/twitterLogo.png" alt="twitter logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END Footer -->
+    </div>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
 
 </body>
 
